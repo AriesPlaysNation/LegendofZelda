@@ -37588,7 +37588,7 @@ PrefabInstance:
     - target: {fileID: 4135609454499804773, guid: bcc73e10c9e525345a1d5deb8144558b,
         type: 3}
       propertyPath: m_Name
-      value: Treasure ChestTopLeft
+      value: ChestB
       objectReference: {fileID: 0}
     - target: {fileID: 4135609454499804795, guid: bcc73e10c9e525345a1d5deb8144558b,
         type: 3}
@@ -37675,6 +37675,12 @@ PrefabInstance:
       propertyPath: dialogText
       value: 
       objectReference: {fileID: 553409126}
+    - target: {fileID: 4135609454499804774, guid: bcc73e10c9e525345a1d5deb8144558b,
+        type: 3}
+      propertyPath: storedOpen
+      value: 
+      objectReference: {fileID: 11400000, guid: 47013957d95642b46bee36151a44125a,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc73e10c9e525345a1d5deb8144558b, type: 3}
 --- !u!1 &1882580767
@@ -38302,7 +38308,7 @@ PrefabInstance:
     - target: {fileID: 4135609454499804773, guid: bcc73e10c9e525345a1d5deb8144558b,
         type: 3}
       propertyPath: m_Name
-      value: Treasure ChestTopRight
+      value: ChestA
       objectReference: {fileID: 0}
     - target: {fileID: 4135609454499804795, guid: bcc73e10c9e525345a1d5deb8144558b,
         type: 3}
@@ -38369,6 +38375,12 @@ PrefabInstance:
       propertyPath: dialogText
       value: 
       objectReference: {fileID: 553409126}
+    - target: {fileID: 4135609454499804774, guid: bcc73e10c9e525345a1d5deb8144558b,
+        type: 3}
+      propertyPath: storedOpen
+      value: 
+      objectReference: {fileID: 11400000, guid: 5e9181d56beb9e14abea84089f91e833,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bcc73e10c9e525345a1d5deb8144558b, type: 3}
 --- !u!1001 &4416685095852220735
