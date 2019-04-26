@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &413480503043635441
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1262082776864793223, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_Name
+      value: DungeonSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -19.503489
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 20.078577
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1186475064589806858, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429910358072316747, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1986365595
+      objectReference: {fileID: 0}
+    - target: {fileID: 2429910358072316747, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: m_SortingLayer
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635707200164861814, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: dialog
+      value: Entry Forbidden
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635707200164861814, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: dialogBox
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5635707200164861814, guid: c02cc47c7788d1f42ab3c0e8191875c2,
+        type: 3}
+      propertyPath: dialogText
+      value: 
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c02cc47c7788d1f42ab3c0e8191875c2, type: 3}
