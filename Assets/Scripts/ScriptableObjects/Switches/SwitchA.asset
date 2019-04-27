@@ -9,10 +9,8 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 108ef5fc299280d439e0fb178eb72015, type: 3}
-  m_Name: PlayerInventory
+  m_Script: {fileID: 11500000, guid: 6efb7ff9e80413c4c99667c5e01aaa52, type: 3}
+  m_Name: SwitchA
   m_EditorClassIdentifier: 
-  currentItem: {fileID: 0}
-  items: []
-  numberOfKeys: 9
-  coins: 3
+  initialValue: 0
+  RuntimeValue: 0

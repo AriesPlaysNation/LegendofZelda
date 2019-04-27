@@ -26,7 +26,7 @@ TextureImporter:
     21300042: objects_21
     21300044: objects_22
     21300046: objects_23
-    21300048: objects_24
+    21300048: Rock1
     21300050: objects_25
     21300052: objects_26
     21300054: objects_27
@@ -99,8 +99,8 @@ TextureImporter:
     21300188: objects_94
     21300190: objects_95
     21300192: objects_96
-    21300194: objects_97
-    21300196: objects_98
+    21300194: switchUp
+    21300196: switchDown
     21300198: objects_99
     21300200: objects_100
     21300202: objects_101
@@ -711,7 +711,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_24
+      name: Rock1
       rect:
         serializedVersion: 2
         x: 260
@@ -2171,13 +2171,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_97
+      name: switchUp
       rect:
         serializedVersion: 2
         x: 0
         y: 160
-        width: 14
-        height: 31
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -2191,13 +2191,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: objects_98
+      name: switchDown
       rect:
         serializedVersion: 2
         x: 16
         y: 160
-        width: 14
-        height: 31
+        width: 16
+        height: 16
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -3159,7 +3159,7 @@ TextureImporter:
         width: 16
         height: 16
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

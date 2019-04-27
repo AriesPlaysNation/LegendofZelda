@@ -74,6 +74,10 @@ MonoBehaviour:
   sceneToLoad: HouseInterior
   playerPosition: {x: 0, y: -3}
   playerStorage: {fileID: 11400000, guid: cb3808f527a31e7489c5f5720bb0297f, type: 2}
+  cameraNewMax: {x: 0, y: 0}
+  cameraNewMin: {x: 0, y: 0}
+  cameraMin: {fileID: 0}
+  cameraMax: {fileID: 0}
   fadeInPanel: {fileID: 3878624322311885739, guid: 4168655bad09f0a4e8a083b47a7db157,
     type: 3}
   fadeOutPanel: {fileID: 6870907272598253563, guid: cab656df863d2b341b8fcd9f2daab262,
