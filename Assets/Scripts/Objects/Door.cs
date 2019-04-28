@@ -48,6 +48,11 @@ public class Door : Interactable
 
     public void Close()
     {
-
+        // Turn off the door's sprite renderer
+        doorSprite.enabled = true;
+        // set Open to true
+        open = true;
+        // turn off door's box collider (physics)
+        physicsCollider.enabled = true;
     }
 }
