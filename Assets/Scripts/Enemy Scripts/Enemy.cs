@@ -22,10 +22,16 @@ public class Enemy : MonoBehaviour
     public string enemyName;
     public int baseAttack;
     public float moveSpeed;
+    public Vector2 homePosition;
 
     [Header("Death Effects")]
     public GameObject deathEffect;
     private float deathEffectDelay = 1f;
+
+    private void OnEnable()
+    {
+        transform.position = homePosition;
+    }
 
     private void Awake()
     {

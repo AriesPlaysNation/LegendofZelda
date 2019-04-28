@@ -11,7 +11,6 @@ public class log : Enemy
     public Transform target;
     public float chaseRadius;
     public float attackRadius;
-    public Transform homePosition;
 
     [Header("Animator")]
     public Animator anim;
