@@ -20,7 +20,7 @@ public class Door : Interactable
     
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        if(Input.GetButtonDown("attack"))
         {
             if(playerInRange && thisDoorType == DoorType.key)
             {
@@ -51,7 +51,7 @@ public class Door : Interactable
         // Turn off the door's sprite renderer
         doorSprite.enabled = true;
         // set Open to true
-        open = true;
+        open = false;
         // turn off door's box collider (physics)
         physicsCollider.enabled = true;
     }

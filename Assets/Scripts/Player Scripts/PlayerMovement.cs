@@ -29,6 +29,7 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
+    public GameObject projectile;
 
     void Start()
     {
@@ -53,6 +54,10 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetButtonDown("attack") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
             StartCoroutine(AttackCo());
+        }
+        else if(Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
+        {
+            StartCoroutine(SecondAttackCo());
         }
         else if(currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
@@ -139,6 +144,39 @@ public class PlayerMovement : MonoBehaviour
             //enemy.bodyType = RigidbodyType2D.Kinematic;
             currentState = PlayerState.idle;
             myRigidBody.velocity = Vector2.zero;
+        }
+    }
+
+    private IEnumerator SecondAttackCo()
+    {
+        currentState = PlayerState.attack;
+        yield return null;
+        MakeArrow();
+        yield return new WaitForSeconds(.3f);
+        if (currentState != PlayerState.interact)
+        {
+            currentState = PlayerState.walk;
+        }
+    }
+
+    private void MakeArrow()
+    {
+        Vector2 temp = new Vector2(animator.GetFloat("moveX"), animator.GetFloat("moveY"));
+        Arrow arrow = Instantiate(projectile, transform.position, Quaternion.identity).GetComponent<Arrow>();
+        arrow.Setup(temp, ChooseArrowDirection());
+    }
+
+    Vector3 ChooseArrowDirection()
+    {
+        float temp = Mathf.Atan2(animator.GetFloat("moveY"), animator.GetFloat("moveX")) * Mathf.Rad2Deg;
+        return new Vector3(0, 0, temp);
+    }
+
+    public void OnTriggerEnter2D(Collider2D other)
+    {
+        if(other.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(this.gameObject);
         }
     }
 }

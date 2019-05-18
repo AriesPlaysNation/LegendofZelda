@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class TurretEnemy : log
 {
-
     public GameObject projectile;
     public float fireDelay;
     private float fireDelaySeconds;

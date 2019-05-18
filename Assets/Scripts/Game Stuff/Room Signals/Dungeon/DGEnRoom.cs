@@ -10,7 +10,7 @@ public class DGEnRoom : DGRoom
     {
         for (int i = 0; i < enemies.Length; i++)
         {
-            if(enemies[i].gameObject.activeInHierarchy && i < enemies.Length - 1)
+            if (enemies[i].gameObject.activeInHierarchy && i < enemies.Length - 1)
             {
                 return;
             }
@@ -43,16 +43,14 @@ public class DGEnRoom : DGRoom
             {
                 ChangeActivation(enemies[i], true);
             }
-        }
-        if (other.CompareTag("Player") && !other.isTrigger)
-        {
             // deactivate all enemies and pots
             for (int i = 0; i < pots.Length; i++)
             {
                 ChangeActivation(pots[i], true);
             }
+            CloseDoors();
+            virtualCamera.SetActive(true);
         }
-        CloseDoors();
     }
 
     public override void OnTriggerExit2D(Collider2D other)
@@ -64,14 +62,12 @@ public class DGEnRoom : DGRoom
             {
                 ChangeActivation(enemies[i], false);
             }
-        }
-        if (other.CompareTag("Player") && !other.isTrigger)
-        {
             // deactivate all enemies and pots
             for (int i = 0; i < pots.Length; i++)
             {
                 ChangeActivation(pots[i], false);
             }
+            virtualCamera.SetActive(false);
         }
     }
 }

@@ -210,13 +210,15 @@ MonoBehaviour:
   enemyName: Bob
   baseAttack: 0
   moveSpeed: 0
+  homePosition: {x: 0, y: 0}
   deathEffect: {fileID: 2436385999784046866, guid: a6dd5b45a2983d74496ec31bb3a9e7ff,
     type: 3}
+  thisLoot: {fileID: 0}
+  roomSignal: {fileID: 0}
   myRigidBody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 6
   attackRadius: 0
-  homePosition: {fileID: 0}
   anim: {fileID: 0}
   projectile: {fileID: 7221130840970887513, guid: 0c6b36cc7e56d50438ca4d9fbfb49702,
     type: 3}

@@ -83,6 +83,7 @@ MonoBehaviour:
   - {fileID: 3020460804195510655}
   - {fileID: 2355407942740048487}
   - {fileID: 2355407941857601457}
+  virtualCamera: {fileID: 0}
 --- !u!1001 &2355407942608013823
 PrefabInstance:
   m_ObjectHideFlags: 0

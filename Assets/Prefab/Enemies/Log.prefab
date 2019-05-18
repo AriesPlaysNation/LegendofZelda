@@ -172,6 +172,8 @@ MonoBehaviour:
   homePosition: {x: 0, y: 0}
   deathEffect: {fileID: 2436385999784046866, guid: a6dd5b45a2983d74496ec31bb3a9e7ff,
     type: 3}
+  thisLoot: {fileID: 0}
+  roomSignal: {fileID: 0}
   myRigidBody: {fileID: 0}
   target: {fileID: 0}
   chaseRadius: 4

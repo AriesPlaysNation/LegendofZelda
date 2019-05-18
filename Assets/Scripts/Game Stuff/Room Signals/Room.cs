@@ -6,24 +6,23 @@ public class Room : MonoBehaviour
 {
     public Enemy[] enemies;
     public pot[] pots;
+    public GameObject virtualCamera;
 
     public virtual void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.CompareTag("Player") && !other.isTrigger)
+        if (other.CompareTag("Player") && !other.isTrigger)
         {
             // Activate all enemies and pots
-            for(int i = 0; i < enemies.Length; i++)
+            for (int i = 0; i < enemies.Length; i++)
             {
                 ChangeActivation(enemies[i], true);
             }
-        }
-        if (other.CompareTag("Player") && !other.isTrigger)
-        {
             // deactivate all enemies and pots
             for (int i = 0; i < pots.Length; i++)
             {
                 ChangeActivation(pots[i], true);
             }
+            virtualCamera.SetActive(true);
         }
     }
 
@@ -36,14 +35,12 @@ public class Room : MonoBehaviour
             {
                 ChangeActivation(enemies[i], false);
             }
-        }
-        if (other.CompareTag("Player") && !other.isTrigger)
-        {
             // deactivate all enemies and pots
-            for(int i = 0; i < pots.Length; i++)
+            for (int i = 0; i < pots.Length; i++)
             {
                 ChangeActivation(pots[i], false);
             }
+            virtualCamera.SetActive(false);
         }
     }
 
