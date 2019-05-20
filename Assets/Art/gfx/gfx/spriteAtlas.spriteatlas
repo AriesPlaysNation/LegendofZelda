@@ -42,12 +42,16 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: cb1952c1910d93d46b803adca49c11b2, type: 3}
-    totalSpriteSurfaceArea: 751589
+    totalSpriteSurfaceArea: 766021
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
+  - {fileID: 21300000, guid: fa513041d72a8b046a6dc7ce8b5e2fc5, type: 3}
   - {fileID: 21300000, guid: 645c6b41c9696e54fb063a37f46d0c10, type: 3}
   - {fileID: 21300000, guid: 12c664d1b60e6d445bcb63bfdf1a1e20, type: 3}
+  - {fileID: 21300000, guid: c3486f9263b5b2e47b4b5c43b75f9704, type: 3}
+  - {fileID: 21300000, guid: cf71a0f2ef5cf2f4887ad454efe2ad95, type: 3}
+  - {fileID: 21300000, guid: 123e4f240248dc947baae9563edbb87a, type: 3}
   - {fileID: 21300100, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300102, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300104, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
@@ -166,6 +170,7 @@ SpriteAtlas:
   - {fileID: 21300216, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300218, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300000, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300000, guid: 8ae35a947d5f42044b2300adc1c0acb7, type: 3}
   - {fileID: 21300018, guid: 72b682e59849743449b78d7584f83cce, type: 3}
   - {fileID: 21300016, guid: 72b682e59849743449b78d7584f83cce, type: 3}
   - {fileID: 21300006, guid: 72b682e59849743449b78d7584f83cce, type: 3}
@@ -1761,6 +1766,7 @@ SpriteAtlas:
   - {fileID: 21300026, guid: 29a2ee9c73463f844a2568047111690a, type: 3}
   - {fileID: 21300020, guid: 29a2ee9c73463f844a2568047111690a, type: 3}
   - {fileID: 21300022, guid: 29a2ee9c73463f844a2568047111690a, type: 3}
+  - {fileID: 21300000, guid: 4856fb6d0d919f547bc8448b88290fe1, type: 3}
   - {fileID: 21300000, guid: 3ff01a5e784d0b94783042f244a9930e, type: 3}
   - {fileID: 21300016, guid: b214856ed04b06c459973bfd3fc735a8, type: 3}
   - {fileID: 21300018, guid: b214856ed04b06c459973bfd3fc735a8, type: 3}
@@ -1804,8 +1810,12 @@ SpriteAtlas:
   - {fileID: 21300018, guid: 1f73d6df65828074bbd9ff64ff1188fe, type: 3}
   - {fileID: 21300016, guid: 1f73d6df65828074bbd9ff64ff1188fe, type: 3}
   m_PackedSpriteNamesToIndex:
+  - Circle
   - key
   - bow
+  - DialogBox_0
+  - magic bar
+  - UIBar2
   - cave_50
   - cave_51
   - cave_52
@@ -1924,6 +1934,7 @@ SpriteAtlas:
   - cave_108
   - cave_109
   - NPC_test
+  - magic bottle
   - orge attack sprites_9
   - orge attack sprites_8
   - orge attack sprites_3
@@ -3519,6 +3530,7 @@ SpriteAtlas:
   - CharacterAnimation_13
   - CharacterAnimation_10
   - CharacterAnimation_11
+  - panel
   - objects 1
   - log_8
   - log_9

@@ -10,15 +10,15 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6e268895040f20f4bb9e83786c8ec619, type: 3}
-  m_Name: MostlyHearts
+  m_Name: MostlyMagic
   m_EditorClassIdentifier: 
   loots:
-  - thisLoot: {fileID: 7644614113299400126, guid: 79d81b3b9c9641a40a2e0e1053549899,
-      type: 3}
-    lootChance: 50
-  - thisLoot: {fileID: 5003096671324468058, guid: 6b1405b1f5523e4428961a8b59803493,
-      type: 3}
-    lootChance: 25
   - thisLoot: {fileID: 347320491037282399, guid: fcaa72ba267f87d46aeca4f878e1e09d,
       type: 3}
-    lootChance: 25
+    lootChance: 75
+  - thisLoot: {fileID: 7644614113299400126, guid: 79d81b3b9c9641a40a2e0e1053549899,
+      type: 3}
+    lootChance: 15
+  - thisLoot: {fileID: 5003096671324468058, guid: 6b1405b1f5523e4428961a8b59803493,
+      type: 3}
+    lootChance: 10

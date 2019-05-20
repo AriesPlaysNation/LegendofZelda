@@ -10,6 +10,18 @@ public class Inventory : ScriptableObject
     public List<Item> items = new List<Item>();
     public int numberOfKeys;
     public int coins;
+    public float maxMagic = 10;
+    public float currentMagic;
+
+    public void OnEnable()
+    {
+        currentMagic = maxMagic;
+    }
+
+    public void ReduceMagic(float magicCost)
+    {
+        currentMagic -= magicCost;
+    }
 
     public void AddItem(Item itemToAdd)
     {
