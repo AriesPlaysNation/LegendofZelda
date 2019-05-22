@@ -19,6 +19,10 @@ public class MagicManager : MonoBehaviour
 
     public void AddMagic()
     {
+        /************************************************************************/
+        //Use this if using for image within ->
+        //magicImage.FillAmount = (playerInventory.currentMagic / playerInventory.maxMagic);
+        /************************************************************************/
         magicSlider.value = playerInventory.currentMagic;
         if (magicSlider.value > magicSlider.maxValue)
         {

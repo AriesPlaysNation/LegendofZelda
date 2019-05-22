@@ -24,7 +24,7 @@ public class Projectile : MonoBehaviour
     void Update()
     {
         lifetimeSeconds -= Time.deltaTime;
-        if(lifetimeSeconds <= 0)
+        if (lifetimeSeconds <= 0)
         {
             Destroy(this.gameObject);
         }

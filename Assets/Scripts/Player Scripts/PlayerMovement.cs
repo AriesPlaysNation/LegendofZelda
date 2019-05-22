@@ -29,8 +29,11 @@ public class PlayerMovement : MonoBehaviour
     public VectorValue startingPosition;
     public Inventory playerInventory;
     public SpriteRenderer receivedItemSprite;
-    public GameObject projectile;
     public Signal reduceMagic;
+
+    [Header("Projectile Stuff")]
+    public GameObject projectile;
+    public Item bow;
 
     void Start()
     {
@@ -58,13 +61,16 @@ public class PlayerMovement : MonoBehaviour
         }
         else if(Input.GetButtonDown("Second Weapon") && currentState != PlayerState.attack && currentState != PlayerState.stagger)
         {
-            StartCoroutine(SecondAttackCo());
+            if(playerInventory.CheckForItem(bow))
+            {
+                StartCoroutine(SecondAttackCo());
+            }
         }
-        else if(currentState == PlayerState.walk || currentState == PlayerState.idle)
+        else if (currentState == PlayerState.walk || currentState == PlayerState.idle)
         {
             UpdateAnimationAndMove();
         }
-            
+
     }
 
     private IEnumerator AttackCo()
@@ -74,7 +80,7 @@ public class PlayerMovement : MonoBehaviour
         yield return null;
         animator.SetBool("attacking", false);
         yield return new WaitForSeconds(.3f);
-        if(currentState != PlayerState.interact)
+        if (currentState != PlayerState.interact)
         {
             currentState = PlayerState.walk;
         }
@@ -105,6 +111,8 @@ public class PlayerMovement : MonoBehaviour
         if (change != Vector3.zero)
         {
             MoveCharacter();
+            change.x = Mathf.Round(change.x);
+            change.y = Mathf.Round(change.y);
             animator.SetFloat("moveX", change.x);
             animator.SetFloat("moveY", change.y);
             animator.SetBool("moving", true);
@@ -180,7 +188,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.CompareTag("enemies"))
+        if (other.gameObject.CompareTag("enemies"))
         {
             Destroy(this.gameObject);
         }

@@ -313,6 +313,9 @@ MonoBehaviour:
   startingPosition: {fileID: 11400000, guid: cb3808f527a31e7489c5f5720bb0297f, type: 2}
   playerInventory: {fileID: 11400000, guid: eb3fab273fb2982469e21227e9efc109, type: 2}
   receivedItemSprite: {fileID: 4416685096869188054}
+  reduceMagic: {fileID: 0}
+  projectile: {fileID: 0}
+  bow: {fileID: 0}
 --- !u!95 &123306121474374429
 Animator:
   serializedVersion: 3
