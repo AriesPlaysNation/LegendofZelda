@@ -186,11 +186,11 @@ public class PlayerMovement : MonoBehaviour
         return new Vector3(0, 0, temp);
     }
 
-    public void OnTriggerEnter2D(Collider2D other)
-    {
-        if (other.gameObject.CompareTag("enemies"))
-        {
-            Destroy(this.gameObject);
-        }
-    }
+    //public void OnTriggerEnter2D(Collider2D other)
+    //{
+    //    if (other.gameObject.CompareTag("enemies"))
+    //    {
+    //        Destroy(this.gameObject);
+    //    }
+    //}
 }

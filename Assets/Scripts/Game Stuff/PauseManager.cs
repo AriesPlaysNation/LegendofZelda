@@ -20,9 +20,14 @@ public class PauseManager : MonoBehaviour
     {
         if(Input.GetButtonDown("pause"))
         {
-            isPaused = !isPaused;
+            ChangePause();
         }
-        if(isPaused)
+    }
+
+    public void ChangePause()
+    {
+        isPaused = !isPaused;
+        if (isPaused)
         {
             pausePanel.SetActive(true);
             Time.timeScale = 0f;
@@ -34,13 +39,9 @@ public class PauseManager : MonoBehaviour
         }
     }
 
-    public void Resume()
-    {
-        isPaused = !isPaused;
-    }
-
     public void QuitToMain()
     {
         SceneManager.LoadScene("mainMenu");
+        Time.timeScale = 1f;
     }
 }

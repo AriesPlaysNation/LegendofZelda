@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: cb1952c1910d93d46b803adca49c11b2, type: 3}
-    totalSpriteSurfaceArea: 1185861
+    totalSpriteSurfaceArea: 1185877
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -51,6 +51,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: 12c664d1b60e6d445bcb63bfdf1a1e20, type: 3}
   - {fileID: 21300000, guid: c3486f9263b5b2e47b4b5c43b75f9704, type: 3}
   - {fileID: 21300000, guid: cf71a0f2ef5cf2f4887ad454efe2ad95, type: 3}
+  - {fileID: 21300000, guid: 0f2e4803020703341ad3fc4660cdadd7, type: 3}
   - {fileID: 21300000, guid: 123e4f240248dc947baae9563edbb87a, type: 3}
   - {fileID: 21300100, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300102, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
@@ -169,7 +170,22 @@ SpriteAtlas:
   - {fileID: 21300220, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300216, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300218, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
+  - {fileID: 21300022, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300020, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300026, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300024, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300012, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300014, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300008, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300010, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300004, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300006, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
   - {fileID: 21300000, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300002, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300016, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300018, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300030, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
+  - {fileID: 21300028, guid: 9a32af74abb675e4ea64967562ba3c20, type: 3}
   - {fileID: 21300000, guid: 8ae35a947d5f42044b2300adc1c0acb7, type: 3}
   - {fileID: 21300018, guid: 72b682e59849743449b78d7584f83cce, type: 3}
   - {fileID: 21300016, guid: 72b682e59849743449b78d7584f83cce, type: 3}
@@ -1815,6 +1831,7 @@ SpriteAtlas:
   - bow
   - DialogBox_0
   - magic bar
+  - Square
   - UIBar2
   - cave_50
   - cave_51
@@ -1933,7 +1950,22 @@ SpriteAtlas:
   - cave_110
   - cave_108
   - cave_109
-  - NPC_test
+  - NPC_test_11
+  - NPC_test_10
+  - NPC_test_13
+  - NPC_test_12
+  - NPC_test_6
+  - NPC_test_7
+  - NPC_test_4
+  - NPC_test_5
+  - NPC_test_2
+  - NPC_test_3
+  - NPC_test_0
+  - NPC_test_1
+  - NPC_test_8
+  - NPC_test_9
+  - NPC_test_15
+  - NPC_test_14
   - magic bottle
   - orge attack sprites_9
   - orge attack sprites_8

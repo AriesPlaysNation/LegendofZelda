@@ -55,7 +55,7 @@ public class Enemy : MonoBehaviour
             {
                 roomSignal.Raise();
             }
-            //this.gameObject.SetActive(false);
+            this.gameObject.SetActive(false);
         }
     }
 
