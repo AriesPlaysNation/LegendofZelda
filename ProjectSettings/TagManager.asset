@@ -6,6 +6,7 @@ TagManager:
   tags:
   - breakable
   - enemies
+  - NPC
   layers:
   - Default
   - TransparentFX
@@ -19,8 +20,8 @@ TagManager:
   - Enemy Projectile
   - Player Projectile
   - Player
-  - 
-  - 
+  - NPC
+  - MiniMap
   - 
   - 
   - 
@@ -60,4 +61,7 @@ TagManager:
     locked: 0
   - name: Breakable
     uniqueID: 3371676229
+    locked: 0
+  - name: NPC
+    uniqueID: 2371815247
     locked: 0

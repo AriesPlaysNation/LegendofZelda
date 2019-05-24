@@ -17,7 +17,7 @@ public class Sign : Interactable
     }
 
     // Update is called once per frame
-    void Update()
+    public virtual void Update()
     {
         if(Input.GetButtonDown("attack") && playerInRange)
         {

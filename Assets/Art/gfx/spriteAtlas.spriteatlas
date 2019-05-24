@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: cb1952c1910d93d46b803adca49c11b2, type: 3}
-    totalSpriteSurfaceArea: 1185877
+    totalSpriteSurfaceArea: 1200485
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -52,6 +52,7 @@ SpriteAtlas:
   - {fileID: 21300000, guid: c3486f9263b5b2e47b4b5c43b75f9704, type: 3}
   - {fileID: 21300000, guid: cf71a0f2ef5cf2f4887ad454efe2ad95, type: 3}
   - {fileID: 21300000, guid: 0f2e4803020703341ad3fc4660cdadd7, type: 3}
+  - {fileID: 21300000, guid: c45339246b95bc34d8d90808395e1abd, type: 3}
   - {fileID: 21300000, guid: 123e4f240248dc947baae9563edbb87a, type: 3}
   - {fileID: 21300100, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
   - {fileID: 21300102, guid: d92f2774d7af0cc45be4e71b0984dbdd, type: 3}
@@ -203,6 +204,7 @@ SpriteAtlas:
   - {fileID: 21300026, guid: 72b682e59849743449b78d7584f83cce, type: 3}
   - {fileID: 21300020, guid: 72b682e59849743449b78d7584f83cce, type: 3}
   - {fileID: 21300022, guid: 72b682e59849743449b78d7584f83cce, type: 3}
+  - {fileID: 21300000, guid: b6520288b4072d44c98183f541a84b5e, type: 3}
   - {fileID: 21300142, guid: b4677439f7e4f8448a555d9a4b8a2cc5, type: 3}
   - {fileID: 21300140, guid: b4677439f7e4f8448a555d9a4b8a2cc5, type: 3}
   - {fileID: 21300146, guid: b4677439f7e4f8448a555d9a4b8a2cc5, type: 3}
@@ -350,6 +352,7 @@ SpriteAtlas:
   - {fileID: 21300196, guid: b4677439f7e4f8448a555d9a4b8a2cc5, type: 3}
   - {fileID: 21300218, guid: b4677439f7e4f8448a555d9a4b8a2cc5, type: 3}
   - {fileID: 21300216, guid: b4677439f7e4f8448a555d9a4b8a2cc5, type: 3}
+  - {fileID: 21300000, guid: b8417dc98757cda4db87e43d4a8eafe4, type: 3}
   - {fileID: 21300000, guid: ae3022e9d93d47748a8f67fce24e56b6, type: 3}
   - {fileID: 21300000, guid: e6b8dee9dc768864a91a43031465bd12, type: 3}
   - {fileID: 21300028, guid: a93b921a1bd56ab4baf1f31b4b5a6ef3, type: 3}
@@ -1766,6 +1769,7 @@ SpriteAtlas:
   - {fileID: 21301246, guid: 0938a25bc8f09ad48acbcb747bcaaaf8, type: 3}
   - {fileID: 21301346, guid: 0938a25bc8f09ad48acbcb747bcaaaf8, type: 3}
   - {fileID: 21300258, guid: 0938a25bc8f09ad48acbcb747bcaaaf8, type: 3}
+  - {fileID: 21300000, guid: 9b2b2e6b2725de345b082a4ca657b835, type: 3}
   - {fileID: 21300000, guid: 5004955cfaffffc4faee548f6c3ad5dc, type: 3}
   - {fileID: 21300006, guid: 29a2ee9c73463f844a2568047111690a, type: 3}
   - {fileID: 21300004, guid: 29a2ee9c73463f844a2568047111690a, type: 3}
@@ -1808,6 +1812,7 @@ SpriteAtlas:
   - {fileID: 21300042, guid: b214856ed04b06c459973bfd3fc735a8, type: 3}
   - {fileID: 21300044, guid: b214856ed04b06c459973bfd3fc735a8, type: 3}
   - {fileID: 21300000, guid: 9b4fe36f1c8cfc64d881b26b41c42b91, type: 3}
+  - {fileID: 21300000, guid: 6700646f3d90c164396b2eacdb76e80c, type: 3}
   - {fileID: 21300000, guid: ec1bf6af31f4d14418fb1ca4e130d2ca, type: 3}
   - {fileID: 21300020, guid: 1f73d6df65828074bbd9ff64ff1188fe, type: 3}
   - {fileID: 21300022, guid: 1f73d6df65828074bbd9ff64ff1188fe, type: 3}
@@ -1832,6 +1837,7 @@ SpriteAtlas:
   - DialogBox_0
   - magic bar
   - Square
+  - Minimap Overlay
   - UIBar2
   - cave_50
   - cave_51
@@ -1983,6 +1989,7 @@ SpriteAtlas:
   - orge attack sprites_13
   - orge attack sprites_10
   - orge attack sprites_11
+  - RoomBlank
   - objects_71
   - objects_70
   - objects_73
@@ -2130,6 +2137,7 @@ SpriteAtlas:
   - switchDown
   - objects_109
   - objects_108
+  - PlayerMarker
   - backdropStartMenu
   - door2
   - character_14
@@ -3546,6 +3554,7 @@ SpriteAtlas:
   - Overworld_623
   - Overworld_673
   - Overworld_129
+  - minimapbacking
   - door
   - CharacterAnimation_3
   - CharacterAnimation_2
@@ -3588,6 +3597,7 @@ SpriteAtlas:
   - log_21
   - log_22
   - font
+  - Minimap mask
   - arrow
   - orge_10
   - orge_11
