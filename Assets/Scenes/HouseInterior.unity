@@ -3482,6 +3482,11 @@ PrefabInstance:
       propertyPath: m_Text
       value: Good Morning! See what Mom is doing?
       objectReference: {fileID: 0}
+    - target: {fileID: 8688170494639709206, guid: 392c3eebe8606104eac9da250c692515,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 392c3eebe8606104eac9da250c692515, type: 3}
 --- !u!1001 &1689682358

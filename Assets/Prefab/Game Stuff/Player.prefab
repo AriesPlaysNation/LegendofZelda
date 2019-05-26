@@ -314,6 +314,12 @@ MonoBehaviour:
   playerInventory: {fileID: 11400000, guid: eb3fab273fb2982469e21227e9efc109, type: 2}
   receivedItemSprite: {fileID: 4416685096869188054}
   reduceMagic: {fileID: 0}
+  flashColor: {r: 0, g: 0, b: 0, a: 0}
+  regularColor: {r: 0, g: 0, b: 0, a: 0}
+  flashDuration: 0
+  numberOfFlashes: 0
+  triggerCollider: {fileID: 0}
+  mySprite: {fileID: 0}
   projectile: {fileID: 0}
   bow: {fileID: 0}
 --- !u!95 &123306121474374429

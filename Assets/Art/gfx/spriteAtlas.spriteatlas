@@ -42,7 +42,7 @@ SpriteAtlas:
     variantMultiplier: 1
     packables:
     - {fileID: 102900000, guid: cb1952c1910d93d46b803adca49c11b2, type: 3}
-    totalSpriteSurfaceArea: 1200485
+    totalSpriteSurfaceArea: 1202789
     bindAsDefault: 1
   m_MasterAtlas: {fileID: 0}
   m_PackedSprites:
@@ -1788,6 +1788,7 @@ SpriteAtlas:
   - {fileID: 21300020, guid: 29a2ee9c73463f844a2568047111690a, type: 3}
   - {fileID: 21300022, guid: 29a2ee9c73463f844a2568047111690a, type: 3}
   - {fileID: 21300000, guid: 4856fb6d0d919f547bc8448b88290fe1, type: 3}
+  - {fileID: 21300000, guid: bc225b7d84981b54fa1784c70ac095eb, type: 3}
   - {fileID: 21300016, guid: b214856ed04b06c459973bfd3fc735a8, type: 3}
   - {fileID: 21300018, guid: b214856ed04b06c459973bfd3fc735a8, type: 3}
   - {fileID: 21300004, guid: b214856ed04b06c459973bfd3fc735a8, type: 3}
@@ -3573,6 +3574,7 @@ SpriteAtlas:
   - CharacterAnimation_10
   - CharacterAnimation_11
   - panel
+  - RoomBlankEmpty
   - log_8
   - log_9
   - log_2

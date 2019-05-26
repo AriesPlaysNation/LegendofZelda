@@ -171,9 +171,10 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
-  m_GateFitMode: 2
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -216,6 +217,90 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: playerHit
+      value: 
+      objectReference: {fileID: 11400000, guid: be1dadd191e22334b8a11e10dc82b225,
+        type: 2}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: receivedItemSprite
+      value: 
+      objectReference: {fileID: 5388741368849599621}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: reduceMagic
+      value: 
+      objectReference: {fileID: 11400000, guid: c7777a064481b134aacf28330bebf568,
+        type: 2}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: flashColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: flashColor.a
+      value: 0.56078434
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: regularColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: regularColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: regularColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: regularColor.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: flashDuration
+      value: 0.07
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: numberOfFlashes
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: triggerCollider
+      value: 
+      objectReference: {fileID: 4416684177780740977}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: mySprite
+      value: 
+      objectReference: {fileID: 7903999040034308141}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: projectile
+      value: 
+      objectReference: {fileID: 4973124221515967666, guid: d37da4bffe7bdae4b92f724884301825,
+        type: 3}
+    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: bow
+      value: 
+      objectReference: {fileID: 11400000, guid: a4956ca77e0f3d9478494c65270a03ed,
+        type: 2}
+    - target: {fileID: 4416685095396613781, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: contextClue
+      value: 
+      objectReference: {fileID: 5388741369257506241}
     - target: {fileID: 4416685095396613784, guid: 67ccfe15e7844fa49906433d0ea2009f,
         type: 3}
       propertyPath: m_Name
@@ -281,6 +366,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4416685096977197202, guid: 67ccfe15e7844fa49906433d0ea2009f,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 8021318994233657730, guid: 67ccfe15e7844fa49906433d0ea2009f,
         type: 3}
       propertyPath: m_Layer
@@ -291,51 +381,12 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 11
       objectReference: {fileID: 0}
-    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
-        type: 3}
-      propertyPath: playerHit
-      value: 
-      objectReference: {fileID: 11400000, guid: be1dadd191e22334b8a11e10dc82b225,
-        type: 2}
-    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
-        type: 3}
-      propertyPath: projectile
-      value: 
-      objectReference: {fileID: 4973124221515967666, guid: d37da4bffe7bdae4b92f724884301825,
-        type: 3}
-    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
-        type: 3}
-      propertyPath: reduceMagic
-      value: 
-      objectReference: {fileID: 11400000, guid: c7777a064481b134aacf28330bebf568,
-        type: 2}
-    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
-        type: 3}
-      propertyPath: bow
-      value: 
-      objectReference: {fileID: 11400000, guid: a4956ca77e0f3d9478494c65270a03ed,
-        type: 2}
-    - target: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
-        type: 3}
-      propertyPath: receivedItemSprite
-      value: 
-      objectReference: {fileID: 5388741368849599621}
     - target: {fileID: 4416685095396613782, guid: 67ccfe15e7844fa49906433d0ea2009f,
         type: 3}
       propertyPath: signalEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 5388741367645946822}
-    - target: {fileID: 4416685095396613781, guid: 67ccfe15e7844fa49906433d0ea2009f,
-        type: 3}
-      propertyPath: contextClue
-      value: 
-      objectReference: {fileID: 5388741369257506241}
     - target: {fileID: 4416685096869188057, guid: 67ccfe15e7844fa49906433d0ea2009f,
-        type: 3}
-      propertyPath: m_Layer
-      value: 11
-      objectReference: {fileID: 0}
-    - target: {fileID: 4416685096977197202, guid: 67ccfe15e7844fa49906433d0ea2009f,
         type: 3}
       propertyPath: m_Layer
       value: 11
@@ -369,6 +420,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8611885278897757523}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &7903999040034308141 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 1887911180771253630, guid: 67ccfe15e7844fa49906433d0ea2009f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8611885278897757523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5388741367645946816 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4416685095396613779, guid: 67ccfe15e7844fa49906433d0ea2009f,
@@ -381,6 +438,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 47c67285894205644a7ed23f06162e78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &4416684177780740977 stripped
+BoxCollider2D:
+  m_CorrespondingSourceObject: {fileID: 5388740380972305954, guid: 67ccfe15e7844fa49906433d0ea2009f,
+    type: 3}
+  m_PrefabInstance: {fileID: 8611885278897757523}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &5388741367645946822 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4416685095396613781, guid: 67ccfe15e7844fa49906433d0ea2009f,
