@@ -11,6 +11,7 @@ public class InventoryManager : MonoBehaviour
     [SerializeField] private GameObject inventoryPanel;
     [SerializeField] private TextMeshProUGUI descText;
     [SerializeField] private GameObject useButton;
+    public InventoryItem currentItem;
 
     public void SetTextAndButton(string desc, bool buttonActive)
     {
@@ -49,9 +50,18 @@ public class InventoryManager : MonoBehaviour
         SetTextAndButton("", false);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void SetupDescAndButton(string newDescString, bool isButtonUseable, InventoryItem newItem)
     {
-        
+        currentItem = newItem;
+        descText.text = newDescString;
+        useButton.SetActive(isButtonUseable);
+    }
+
+    public void UseButtonPressed()
+    {
+        if(currentItem)
+        {
+            currentItem.Use();
+        }
     }
 }
